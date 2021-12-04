@@ -1,0 +1,18 @@
+{
+  "entryPagePath": "pages/02_base/index/index",
+  "pages": [
+    "pages/01_origin/index/index",
+    "pages/01_origin/logs/logs",
+    "pages/02_base/index/index",
+    "pages/02_base/list/list",
+    "pages/02_base/swiper-test/swiper-test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

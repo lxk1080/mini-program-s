@@ -1,0 +1,6 @@
+
+/* 注意在 app.wxss 里也有定义 container，这里再次定义，相同的属性可以覆盖 */
+.container {
+    background-color: #b3d4db;
+    height: 100vh;
+}

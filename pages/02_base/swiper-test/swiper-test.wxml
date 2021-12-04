@@ -1,0 +1,12 @@
+
+<swiper>
+  <swiper-item>
+    <image src="/assets/img/a.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/img/b.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/img/c.jpg" />
+  </swiper-item>
+</swiper>

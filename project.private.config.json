@@ -1,0 +1,24 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/02_base/swiper-test/swiper-test",
+                    "pathName": "pages/02_base/swiper-test/swiper-test",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

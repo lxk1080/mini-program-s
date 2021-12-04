@@ -1,0 +1,7 @@
+
+<view class="container">
+  <!-- LinUI 用户头像、用户昵称 -->
+  <l-avatar openData="{{['userAvatarUrl', 'userNickName']}}" placement="bottom" />
+  <text>Hello World</text>
+  <l-button type="default" plain="true" bg-color="transparent" bind:tap="start">开始</l-button>
+</view>
