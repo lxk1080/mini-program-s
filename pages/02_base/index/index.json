@@ -2,7 +2,6 @@
   "navigationBarBackgroundColor": "#b3d4db",
   "navigationBarTitleText": "基础页",
   "usingComponents": {
-    "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
-    "l-button": "/miniprogram_npm/lin-ui/button/index"
+
   }
 }

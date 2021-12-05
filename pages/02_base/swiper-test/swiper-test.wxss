@@ -1,7 +1,7 @@
 
 swiper {
     /*
-      1. swiper 中图片宽度可以设置在 image 上，但是高度需要设置在 swiper 上
+      1. swiper 中图片宽高需要设置在 image 上，但是高度也需要设置在 swiper 上
       2. 图片的大小是 1920 * 1200 的，这里的 height = 750 / (1920 / 1200) = 468.75
     */
     height: 468.75rpx;
@@ -10,4 +10,5 @@ swiper {
 swiper-item image {
     /* 宽度为 100% 也就是 750rpx */
     width: 100%;
+    height: 468.75rpx;
 }

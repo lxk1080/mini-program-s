@@ -1,12 +1,14 @@
 
-<swiper>
-  <swiper-item>
-    <image src="/assets/img/a.jpg" />
-  </swiper-item>
-  <swiper-item>
-    <image src="/assets/img/b.jpg" />
-  </swiper-item>
-  <swiper-item>
-    <image src="/assets/img/c.jpg" />
-  </swiper-item>
-</swiper>
+<view>
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" circular="{{true}}" interval="{{3000}}">
+    <swiper-item>
+      <image src="/assets/img/a.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/img/b.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/img/c.jpg" />
+    </swiper-item>
+  </swiper>
+</view>

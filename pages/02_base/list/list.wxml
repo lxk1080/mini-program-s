@@ -1,4 +1,7 @@
 
 <view class="list-container">
+  <l-button class="list-btn" type="success" size="large" id="life-cycle-test" bind:tap="toPage">生命周期</l-button>
+  <l-button class="list-btn" type="success" size="large" id="conditional-render-test" bind:tap="toPage">条件与列表渲染</l-button>
+  <l-button class="list-btn" type="success" size="large" id="test-1" data-prefix="router-test" bind:tap="toPage">路由跳转</l-button>
   <l-button class="list-btn" type="success" size="large" id="swiper-test" bind:tap="toPage">Swiper</l-button>
 </view>

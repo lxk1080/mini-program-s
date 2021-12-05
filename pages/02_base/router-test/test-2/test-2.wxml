@@ -1,0 +1,5 @@
+test-2
+
+<button bind:tap="toTest3NavigateTo">toTest3 navigateTo</button>
+<view style="margin: 20px" />
+<button bind:tap="toTest3RedirectTo">toTest3 redirectTo</button>

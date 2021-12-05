@@ -15,7 +15,7 @@ Page({
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../logs/logs' // 可写相对路径，也可以写绝对路径
     })
   },
 
@@ -52,7 +52,7 @@ Page({
 
   toBasePage() {
     wx.navigateTo({
-      url: '../../02_base/index/index' // 这个只能写相对路径
+      url: '/pages/02_base/index/index' // 注意绝对路径一定要用 / 开头
     })
   }
 })

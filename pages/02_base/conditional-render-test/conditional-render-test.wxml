@@ -1,0 +1,27 @@
+
+<!--
+  1、虽然这些条件判断标签可以直接写在元素上，但还是推荐使用 block 来包裹，否则生成的 dom 结构就会很奇怪，不干净，而且显示样式也会有问题
+-->
+
+<view class="container">
+  <!-- 条件渲染 -->
+  <view>
+    <block wx:if="{{ flag === 1 }}">
+      <text>flag === 1</text>
+    </block>
+    <block wx:elif="{{ flag === 2 }}">
+      <text>flag === 2</text>
+    </block>
+    <block wx:else="{{ flag === 3 }}">
+      <text>flag === 3</text>
+    </block>
+  </view>
+  <!-- 列表渲染：默认的 wx:for-item 为 item，默认的 wx:for-index 为 index -->
+  <view>
+    <block wx:for="{{ list }}" wx:for-item="it" wx:for-index="i" wx:key="{{ it.name }}">
+      <view>
+        <text>{{ it.name }} + {{ it.age }} + {{ i }}</text>
+      </view>
+    </block>
+  </view>
+</view>

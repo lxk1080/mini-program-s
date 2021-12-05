@@ -5,9 +5,19 @@ Page({
   },
 
   toPage(e) {
-    const name = e.target.id
+    const { id, dataset } = e.target
+    const { prefix } = dataset
+
+    let newUrl = '../'
+
+    if (prefix) {
+      newUrl += `${prefix}/`
+    }
+
+    newUrl += `${id}/${id}`
+
     wx.navigateTo({
-      url: `../${name}/${name}`
+      url: newUrl
     })
   }
 });
