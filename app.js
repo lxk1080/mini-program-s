@@ -15,5 +15,9 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+  store: {
+    a: 1,
+    b: 2,
+  },
 })

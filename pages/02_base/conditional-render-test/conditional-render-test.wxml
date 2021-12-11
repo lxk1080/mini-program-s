@@ -17,8 +17,9 @@
     </block>
   </view>
   <!-- 列表渲染：默认的 wx:for-item 为 item，默认的 wx:for-index 为 index -->
+  <!-- 注意 wx:key 的写法，不需要双大括号，直接写 item 的属性名即可 -->
   <view>
-    <block wx:for="{{ list }}" wx:for-item="it" wx:for-index="i" wx:key="{{ it.name }}">
+    <block wx:for="{{ list }}" wx:for-item="it" wx:for-index="i" wx:key="name">
       <view>
         <text>{{ it.name }} + {{ it.age }} + {{ i }}</text>
       </view>

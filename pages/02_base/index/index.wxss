@@ -1,6 +1,24 @@
 
-/* 注意在 app.wxss 里也有定义 container，这里再次定义，相同的属性可以覆盖 */
+/*
+  1、下面 container 元素的高度不是全屏的高度，所以设置了背景色在高度上不是全屏的
+  2、每个页面会自动在外层被 page 元素包裹，设置整个页面的背景色，在此元素上设置即可
+*/
+page {
+    background-color: #b3d4db;
+}
+
+/*
+  1、注意在 app.wxss 里也有定义 container，这里再次定义，相同的属性可以覆盖
+  2、注意 wxml 里面最外层元素的高不是占满全屏的
+*/
 .container {
     background-color: #b3d4db;
-    height: 100vh;
+}
+
+.text {
+    margin-top: 50px;
+}
+
+.btn {
+    margin-top: 80px;
 }

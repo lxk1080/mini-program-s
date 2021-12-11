@@ -10,7 +10,8 @@
     "pages/02_base/conditional-render-test/conditional-render-test",
     "pages/02_base/router-test/test-1/test-1",
     "pages/02_base/router-test/test-2/test-2",
-    "pages/02_base/router-test/test-3/test-3"
+    "pages/02_base/router-test/test-3/test-3",
+    "pages/02_base/cache-test/cache-test"
   ],
   "window": {
     "backgroundTextStyle": "light",
