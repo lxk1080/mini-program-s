@@ -8,5 +8,5 @@ Page({
     wx.navigateTo({
       url: '../list/list'
     })
-  }
+  },
 });

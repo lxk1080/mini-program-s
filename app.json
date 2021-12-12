@@ -11,7 +11,9 @@
     "pages/02_base/router-test/test-1/test-1",
     "pages/02_base/router-test/test-2/test-2",
     "pages/02_base/router-test/test-3/test-3",
-    "pages/02_base/cache-test/cache-test"
+    "pages/02_base/cache-test/cache-test",
+    "pages/02_base/feature-test/feature-test",
+    "pages/02_base/music-test/music-test"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,6 +23,7 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio", "location"],
   "usingComponents": {
     "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
     "l-button": "/miniprogram_npm/lin-ui/button/index"

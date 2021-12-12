@@ -1,0 +1,5 @@
+
+<view class="list-container music-container">
+  <l-button class="list-btn" plain="{{true}}" size="large" bind:tap="play">播放音乐</l-button>
+  <l-button class="list-btn" plain="{{true}}" size="large" bind:tap="pause">暂停</l-button>
+</view>

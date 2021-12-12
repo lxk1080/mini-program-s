@@ -7,4 +7,14 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-btn {
+    margin-top: 30rpx;
+}

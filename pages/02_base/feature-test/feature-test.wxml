@@ -1,0 +1,7 @@
+
+<view class="list-container feature-container">
+  <l-button class="list-btn" plain="{{true}}" size="large" bind:tap="onToast">toast</l-button>
+  <l-button class="list-btn" plain="{{true}}" size="large" bind:tap="onLoading">loading</l-button>
+  <l-button class="list-btn" plain="{{true}}" size="large" bind:tap="onModal">modal</l-button>
+  <l-button class="list-btn" plain="{{true}}" size="large" bind:tap="onActionSheet">actionSheet</l-button>
+</view>

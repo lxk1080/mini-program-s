@@ -5,4 +5,6 @@
   <l-button class="list-btn" type="success" size="large" id="test-1" data-prefix="router-test" bind:tap="toPage">路由跳转</l-button>
   <l-button class="list-btn" type="success" size="large" id="cache-test" bind:tap="toPage">缓存</l-button>
   <l-button class="list-btn" type="success" size="large" id="swiper-test" bind:tap="toPage">Swiper</l-button>
+  <l-button class="list-btn" type="success" size="large" id="feature-test" bind:tap="toPage">小组件</l-button>
+  <l-button class="list-btn" type="success" size="large" id="music-test" bind:tap="toPage">音乐</l-button>
 </view>
