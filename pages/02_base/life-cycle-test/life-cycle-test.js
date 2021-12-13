@@ -47,9 +47,14 @@ Page({
 
     /**
      * 页面相关事件处理函数--监听用户下拉动作
+     *    - 需要在 json 文件里配置 "enablePullDownRefresh": true
      */
     onPullDownRefresh: function () {
       console.log('onPullDownRefresh')
+      setTimeout(() => {
+        wx.stopPullDownRefresh()
+        console.log('pullDownRefresh closed')
+      }, 1500)
     },
 
     /**

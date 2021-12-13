@@ -4,6 +4,7 @@
     "pages/01_origin/index/index",
     "pages/01_origin/logs/logs",
     "pages/02_base/index/index",
+    "pages/02_base/my/my",
     "pages/02_base/list/list",
     "pages/02_base/swiper-test/swiper-test",
     "pages/02_base/life-cycle-test/life-cycle-test",
@@ -13,7 +14,9 @@
     "pages/02_base/router-test/test-3/test-3",
     "pages/02_base/cache-test/cache-test",
     "pages/02_base/feature-test/feature-test",
-    "pages/02_base/music-test/music-test"
+    "pages/02_base/music-test/music-test",
+    "pages/02_base/comp-test/comp-test",
+    "pages/02_base/scroll-view-test/scroll-view-test"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,5 +30,23 @@
   "usingComponents": {
     "l-avatar": "/miniprogram_npm/lin-ui/avatar/index",
     "l-button": "/miniprogram_npm/lin-ui/button/index"
+  },
+  "tabBar": {
+    "color": "#555555",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/01_origin/index/index",
+        "iconPath": "assets/icon/zhuye.png",
+        "selectedIconPath": "assets/icon/zhuye-selected.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/02_base/my/my",
+        "iconPath": "assets/icon/wode.png",
+        "selectedIconPath": "assets/icon/wode-selected.png"
+      }
+    ]
   }
 }

@@ -1,0 +1,9 @@
+
+<view class="container">
+  <!--
+    1、属性 c-class 是组件 MyText 的外部样式类，这可以让我们在当前组件去定义 MyText 组件内指定 Dom 的样式
+    2、方法 bind:showText 是组件内自定义事件，这用法就和 Vue 的自定义事件类似呢
+  -->
+  <MyText c-class="my-text" bind:showText="onShowText" text="{{'字符串-1'}}" num="{{123}}" obj="{{obj}}" />
+  <MyText c-class="my-text" bind:showText="onShowText" text="{{'字符串-2'}}" num="{{123}}" obj="{{obj}}" />
+</view>

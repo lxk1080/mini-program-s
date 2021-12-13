@@ -1,0 +1,27 @@
+
+/* 水平滚动 */
+/* 注意在设置水平滚动的时候，需要给 scroll-view 组件手动设置高度，与元素的高度相同即可 */
+.scroll-view-wrapper {
+    display: flex;
+    flex-direction: row;
+    border: red solid 1px;
+    height: 200rpx;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 200rpx;
+    height: 200rpx;
+    border: yellow solid 1px;
+}
+
+/* 垂直滚动 */
+.scroll-view-wrapper-vertical {
+    margin-left: 100rpx;
+    margin-top: 100rpx;
+    border: red solid 1px;
+    width: 200rpx;
+    height: 700rpx;
+}

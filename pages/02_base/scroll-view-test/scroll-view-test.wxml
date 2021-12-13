@@ -1,0 +1,32 @@
+<!--
+  1、注意使用 scroll-view 的两个重要属性，enable-flex 和 scroll-x，前者兼容 flex 布局，后者设置水平滚动，其他看文档吧
+-->
+<view class="scroll-view-container">
+  <!-- 水平滚动 -->
+  <scroll-view enable-flex="{{true}}" scroll-x="{{true}}" class="scroll-view-wrapper">
+    <view class="block">1</view>
+    <view class="block">2</view>
+    <view class="block">3</view>
+    <view class="block">4</view>
+    <view class="block">5</view>
+    <view class="block">6</view>
+    <view class="block">7</view>
+    <view class="block">8</view>
+    <view class="block">9</view>
+    <view class="block">10</view>
+  </scroll-view>
+
+  <!-- 垂直滚动 -->
+  <scroll-view  scroll-y="{{true}}" class="scroll-view-wrapper-vertical">
+    <view class="block">1</view>
+    <view class="block">2</view>
+    <view class="block">3</view>
+    <view class="block">4</view>
+    <view class="block">5</view>
+    <view class="block">6</view>
+    <view class="block">7</view>
+    <view class="block">8</view>
+    <view class="block">9</view>
+    <view class="block">10</view>
+  </scroll-view>
+</view>

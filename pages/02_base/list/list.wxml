@@ -7,4 +7,6 @@
   <l-button class="list-btn" type="success" size="large" id="swiper-test" bind:tap="toPage">Swiper</l-button>
   <l-button class="list-btn" type="success" size="large" id="feature-test" bind:tap="toPage">小组件</l-button>
   <l-button class="list-btn" type="success" size="large" id="music-test" bind:tap="toPage">音乐</l-button>
+  <l-button class="list-btn" type="success" size="large" id="comp-test" bind:tap="toPage">自定义组件</l-button>
+  <l-button class="list-btn" type="success" size="large" id="scroll-view-test" bind:tap="toPage">scrollView</l-button>
 </view>

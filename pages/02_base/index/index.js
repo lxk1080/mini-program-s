@@ -6,7 +6,7 @@ Page({
 
   start() {
     wx.navigateTo({
-      url: '../list/list'
+      url: '../list/list?message=我是从开始页面来的'
     })
   },
 });

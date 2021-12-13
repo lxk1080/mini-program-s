@@ -1,2 +1,4 @@
 <!--pages/test/test.wxml-->
-<text>{{ message }}</text>
+<view class="life-cycle-container">
+  <text>{{ message }}</text>
+</view>

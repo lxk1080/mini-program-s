@@ -1,0 +1,16 @@
+<!-- 传入外部样式类 -->
+<view class="c-class">
+  <view>
+    <text>{{ message }}</text>
+  </view>
+  <view>
+    <text>{{ text }}</text>
+  </view>
+  <view>
+    <text>{{ num }}</text>
+  </view>
+  <view>
+    <text>{{ obj.a + obj.b }}</text>
+  </view>
+  <button bind:tap="onBtnClicked">显示文本</button>
+</view>
